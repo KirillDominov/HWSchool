@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Hello world!");
         GryffindorStudents gryffindor1 = new GryffindorStudents(5,55,"Гарри Поттер", 55, 45, 11);
         GryffindorStudents gryffindor2 = new GryffindorStudents(2,45,"Гермиона Грейнджер", 11, 55, 7);
         GryffindorStudents gryffindor3 = new GryffindorStudents(52,88,"Рон Уизли", 89, 1, 69);

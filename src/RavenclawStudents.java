@@ -28,8 +28,16 @@ public class RavenclawStudents extends HogwartsStudents {
         return fullOfCreativity;
     }
 
-    @java.lang.Override
-    public java.lang.String toString() {
-        return getName();
+    @Override
+    public String toString() {
+        return "Ravenclaw{" +
+                "name=" + getName() +
+                ",magicPower=" + getMagicPower() +
+                ",transgressionDistance=" + getTransgressionDistance() +
+                "smart=" + smart +
+                ", wiseint=" + wiseint +
+                ", witty=" + witty +
+                ", fullOfCreativity=" + fullOfCreativity +
+                '}';
     }
 }

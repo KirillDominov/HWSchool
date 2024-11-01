@@ -23,8 +23,15 @@ public class GryffindorStudents extends HogwartsStudents {
         return courage;
     }
 
-    @java.lang.Override
-    public java.lang.String toString() {
-        return getName();
+    @Override
+    public String toString() {
+        return "Gryffindor{" +
+                "name=" + getName() +
+                ",magicPower=" + getMagicPower() +
+                ",transgressonDisance=" + getTransgressionDistance() +
+                ",nobility=" + nobility +
+                ", honor=" + honor +
+                ", courage=" + courage +
+                '}';
     }
 }

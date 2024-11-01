@@ -22,8 +22,15 @@ public class HufflepuffStudents extends HogwartsStudents {
         return honest;
     }
 
-    @java.lang.Override
-    public java.lang.String toString() {
-        return getName();
+    @Override
+    public String toString() {
+        return "Hufflepuff{" +
+                "name=" + getName() +
+                ",magicPower=" + getMagicPower() +
+                ",transgressionDistance=" + getTransgressionDistance() +
+                "hardworking=" + hardworking +
+                ", loyal=" + loyal +
+                ", honest=" + honest +
+                '}';
     }
 }

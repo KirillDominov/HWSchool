@@ -1,3 +1,4 @@
+
 public class SlytherinStudents extends HogwartsStudents {
     private final int cunning;
     private final int determination;
@@ -34,8 +35,17 @@ public class SlytherinStudents extends HogwartsStudents {
         return aThirstForPower;
     }
 
-    @java.lang.Override
-    public java.lang.String toString() {
-        return getName();
+    @Override
+    public String toString() {
+        return "Slytherin{" +
+                "name=" + getName() +
+                ",magicPower=" + getMagicPower() +
+                ",transgressionDistance=" + getTransgressionDistance() +
+                "cunning=" + cunning +
+                ", determination=" + determination +
+                ", ambition=" + ambition +
+                ", resourceFulness=" + resourceFulness +
+                ", aThirstForPower=" + aThirstForPower +
+                '}';
     }
 }
